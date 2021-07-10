@@ -1,0 +1,138 @@
+.job-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+  padding: 2rem 1.5rem;
+  border-left: 5px solid var(--cyan-primary);
+  margin-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 640px) {
+  .job-card {
+    flex-direction: row;
+    align-items: center;
+    padding: 2.5rem 2rem;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.job-card__logo {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  top: -1.5rem;
+}
+
+@media screen and (min-width: 640px) {
+  .job-card__logo {
+    position: relative;
+    width: 5.5rem;
+    height: 5.5rem;
+    margin-right: 1.5rem;
+    top: 0;
+  }
+}
+
+.job-card__main {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  .job-card__main {
+    margin-bottom: 0;
+  }
+}
+
+.job-card__section {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 640px) {
+  .job-card__section {
+    flex-direction: row;
+  }
+}
+
+.job-card__company {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.job-card__company-name {
+  font-size: 13px;
+  font-weight: 700;
+  margin-right: 1rem;
+  color: var(--cyan-primary);
+}
+
+.job-card__indicator {
+  display: flex;
+  align-items: flex-end;
+  background-color: var(--cyan-primary);
+  color: #ffffff;
+  font-size: 11px;
+  padding: 0.7rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 24px;
+  margin-right: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.dark {
+  background-color: var(--cyan-xl-dark);
+  margin-right: 0;
+}
+
+.job-card__position {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #2b3939;
+  margin-bottom: 0.5rem;
+}
+
+.job-card__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #7c8f8f;
+}
+
+.job-card__meta-item {
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 1.25rem;
+}
+
+.job-card__divider {
+  height: 1px;
+  background-color: #b7c4c4;
+}
+
+.job-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.job-cad__tag-item {
+  display: grid;
+  place-items: center;
+  padding: 0.2rem 0.5rem;
+  height: 2rem;
+  background-color: var(--cyan-light);
+  color: var(--cyan-primary);
+  font-size: 13px;
+  font-weight: 700;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+}

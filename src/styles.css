@@ -9,9 +9,8 @@
   --cyan-xl-dark: hsl(180, 14%, 20%);
 }
 
-:host {
+:root {
   font-family: "Spartan", sans-serif;
-  font-size: 15px;
   color: #333;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;

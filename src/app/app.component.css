@@ -1,11 +1,18 @@
 .header {
-  height: 10.4rem;
+  height: 9.75rem;
   background-color: var(--cyan-primary);
   background-image: url("../assets/images/bg-header-desktop.svg");
   background-size: cover;
 }
 
 .container {
-  height: calc(100vh - 10.4rem);
+  min-height: calc(100vh - 10.4rem);
   background-color: var(--cyan-light-bg);
+  padding: 3.5rem 1.5rem;
+}
+
+@media screen and (min-width: 640px) {
+  .container {
+    padding: 4.75rem 8rem;
+  }
 }
