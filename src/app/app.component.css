@@ -1,0 +1,11 @@
+.header {
+  height: 10.4rem;
+  background-color: var(--cyan-primary);
+  background-image: url("../assets/images/bg-header-desktop.svg");
+  background-size: cover;
+}
+
+.container {
+  height: calc(100vh - 10.4rem);
+  background-color: var(--cyan-light-bg);
+}

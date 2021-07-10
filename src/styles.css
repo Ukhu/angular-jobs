@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --tablet: 640px;
+
+  --cyan-primary: hsl(180, 29%, 50%);
+
+  --cyan-light-bg: hsl(180, 52%, 96%);
+  --cyan-light: hsl(180, 31%, 95%);
+  --cyan-dark: hsl(180, 8%, 52%);
+  --cyan-xl-dark: hsl(180, 14%, 20%);
+}
+
+:host {
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+  color: #333;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
